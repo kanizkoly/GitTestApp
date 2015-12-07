@@ -10,6 +10,14 @@ namespace GitTestApp
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hello world...");
+
+            int num1 = 5;
+            int num2 = 20;
+            int add = num1 + num2;
+
+            Console.WriteLine("Sum is: " + add);
+            Console.ReadLine();
         }
     }
 }
